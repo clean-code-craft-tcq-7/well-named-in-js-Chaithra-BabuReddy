@@ -1,4 +1,4 @@
-import { ColorPair } from './colorPair';
+import { ColorPair,MajorColorNames,MinorColorNames } from './colorPair';
 export function getColorFromPairNumber(pairNumber) {
     let minorSize = MajorColorNames.length;
     let majorSize = MinorColorNames.length;
