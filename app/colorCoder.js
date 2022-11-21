@@ -1,6 +1,7 @@
-import { getColorFromPairNumber, getPairNumberFromColor } from './colorPairFunctions';
+import { getColorFromPairNumber, getPairNumberFromColor } from './colorPairFunctions.js';
+import { ColorPair} from './colorPair.js';
 function test(){
-			pairNumber = 4;
+			let pairNumber = 4;
             let testPair1 = getColorFromPairNumber(pairNumber);
             console.log(`[In]Pair Number: ${pairNumber},[Out] Colors:${testPair1}`);
 			console.assert(testPair1.majorColor == "WHITE");
